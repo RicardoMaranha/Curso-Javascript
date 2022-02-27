@@ -5,11 +5,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="JavaScript-ico.ico" type="image/x-icon">
+        <script src=""></script>
+    
         <title>Meu primeiro programa...</title>
         <style>
                 body {
-                        background-color: rgb(33, 33, 37);
-                        color: rgb(194, 194, 194);
+                        background-color: rgb(101, 101, 153);
+                        color: white;
                         font: 25pt Arial;
                 }
                 h1 {
@@ -18,17 +20,14 @@
         </style>
 </head>
 <body>
-        <h1>Olá, Mundo!</h1>
+        <h1>Olá, Mundo!</h1> <!--Comentário html-->
         <p>Ja me livrei da maldição</p>
         <script>
-                var n1 = Number.parseFloat(window.prompt('Digite um numero: ')) // converter numero para string "String(s)"" ou "s.toString"
-                var n2 = Number.parseFloat(window.prompt('Digite outro numero: '))
-                var s = n1 + n2
-                window.alert(`A soma entre os numeros ${n1} e ${n2} é ${s}.`) // crase - template string
-                n1.toString // converter para string
-                String(n1) // converter para string
-
-
+                var nome = window.prompt('Qual seu nome?')//pergunta nome
+                window.alert('Olá, '+ nome + '!!!')
+                /*Comentário com mais de uma linha
+                como neste exemplo*/
+                
         </script>
 </body>
 </html>
