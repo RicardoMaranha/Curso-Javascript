@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+    <title>Idade</title>
+</head>
+<body>
+    <header>
+        <h1 id="Titulo">Idade</h1>
+    </header>
+    <section>
+        <div id="container">
+            <div id="formulario">
+                <p>Ano de nascimento:
+                    <input type="number" name="ano" id="ano">
+                </p>
+                <p>Sexo:
+                    <input type="radio" name="radsex" id="masc" checked>
+                    <label for="masc">Masculino</label>
+                    <input type="radio" name="radsex" id="fem">
+                    <label for="fem">Feminino</label>
+                </p>
+                <p>
+                    <input type="button" value="verificar" onclick="calcular()">
+                </p>
+
+            </div>
+            <div id="foto">
+                <img id="imagem" src="img/bebe.png" alt="Imagem da Idade">
+
+            </div>
+            <div id="res">
+                ...
+            </div>
+
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy; RicardoMaranha</p>
+    </footer>
+</body>
+</html>
